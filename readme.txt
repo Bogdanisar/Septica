@@ -4,7 +4,7 @@ The game is implemented in C++ using the SDL 2.0 API in Windows.
 
 In order to run the game follow the next steps:
 1) Download the Files folder.
-2) Run the compile.bat file or navigate to the folder using CMD and run the following commands:
+2) Run the compile.bat file or navigate to the folder using CMD and run the following commands only for the first time:
 
 mingw32-g++.exe -g -std=c++11 -ISDL\Mingw_dev_lib\include\SDL2 -c gameClass.cpp -o obj\gameClass.o
 mingw32-g++.exe -g -std=c++11 -ISDL\Mingw_dev_lib\include\SDL2 -c main.cpp -o obj\main.o
